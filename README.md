@@ -18,8 +18,8 @@ This project is a backend service built using Node.js, Express, and MongoDB that
 Clone the repository:
 
 ```bash
-git clone <repository-url>
-cd job-recommendation-service
+git clone https://github.com/riishabhraj/job-recommendation-api
+cd job-recommendation-api
 ```
 
 # Install dependencies:
