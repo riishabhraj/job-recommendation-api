@@ -130,7 +130,7 @@ job-recommendation-service/
 │   └── recommendations.js       # API route
 ├── config/
 │   └── db.js                    # Database connection
-├── app.js                       # Main application entry
+├── index.js                     # Main application entry
 └── README.md                    # Documentation
 ```
 
