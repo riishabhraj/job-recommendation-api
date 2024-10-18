@@ -3,16 +3,25 @@
 This project is a backend service built using Node.js, Express, and MongoDB that provides job recommendations based on a user's profile. It matches user preferences with job postings stored in the database, leveraging a recommendation algorithm to deliver personalized job suggestions.
 
 # Features
-• RESTful API: A single API endpoint that accepts user profile data and returns recommended job postings.
-• Flexible Recommendation Logic: Matches job postings to user profiles based on skills, experience level, job type, and location preferences.
-• Error Handling: Includes error handling for invalid requests and database operations.
-• Database: Uses MongoDB to store job data and fetch relevant job postings.
+- **RESTful API**:  
+  A single API endpoint that accepts user profile data and returns recommended job postings.
+
+- **Flexible Recommendation Logic**:  
+  Matches job postings to user profiles based on skills, experience level, job type, and location preferences.
+
+- **Error Handling**:  
+  Includes error handling for invalid requests and database operations.
+
+- **Database**:  
+  Uses MongoDB to store job data and fetch relevant job postings.
 
 # Technologies Used
-• Node.js: JavaScript runtime for server-side programming.
-• Express: Web framework for building the RESTful API.
-• MongoDB: NoSQL database for storing job data.
-• Mongoose: Object Data Modeling (ODM) library for MongoDB and Node.js.
+## Technology Stack
+- **Node.js**: JavaScript runtime for server-side programming.
+- **Express**: Web framework for building the RESTful API.
+- **MongoDB**: NoSQL database for storing job data.
+- **Mongoose**: Object Data Modeling (ODM) library for MongoDB and Node.js.
+
 
 # Setup and Installation
 Clone the repository:
@@ -137,16 +146,26 @@ job-recommendation-service/
 # Error Handling
 The service implements error handling for:
 
-• Invalid Requests: Returns a 400 Bad Request response for missing or malformed user profile data.
-• Database Errors: Logs errors and returns a 500 Internal Server Error response if there are issues connecting to or querying the database.
-• No Matches Found: If no jobs match the user profile, the service responds with a friendly message indicating no recommendations are available.
+- **Invalid Requests**: 
+  Returns a 400 Bad Request response for missing or malformed user profile data.
+
+- **Database Errors**: 
+  Logs errors and returns a 500 Internal Server Error response if there are issues connecting to or querying the database.
+
+- **No Matches Found**: 
+  If no jobs match the user profile, the service responds with a friendly message indicating no recommendations are available.
 
 # Future Enhancements
 Potential future improvements to the service:
 
-• Advanced Matching: Implement a machine learning model to improve recommendation quality.
-• User Feedback: Allow users to rate job recommendations to improve future suggestions.
-• Pagination: Add pagination to the API response to handle larger datasets.
+- **Advanced Matching**:  
+  Implement a machine learning model to improve recommendation quality.
+
+- **User Feedback**:  
+  Allow users to rate job recommendations to improve future suggestions.
+
+- **Pagination**:  
+  Add pagination to the API response to handle larger datasets.
 
 # License
 This project is open-source and free to use.
